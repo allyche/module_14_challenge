@@ -65,7 +65,7 @@ Adjusted SMA actual vs strategy returns plot: https://github.com/allyche/module_
 
 4. Linear Regression Model:
 
-Using the Linear Regression model, we got a accuracy  f1-score of 52%, which is slightly lower than the rest of the tests we did. As for the predictions to both 1 (actual return > 0) and -1 (actual return <1), the f1-score gives 38%% in predicting -1, but a 61% for 1.
+Using the Linear Regression model, we got a accuracy  f1-score of 52%, which is slightly lower than the rest of the tests we did. As for the predictions to both 1 (actual return > 0) and -1 (actual return <1), the f1-score gives 38% in predicting -1, but a 61% for 1.
 
 Similar to the base SVC model, we can see the prediction (strategy) return still gives a better performance from the middle of 2019 onwards.  
 
