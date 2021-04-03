@@ -35,6 +35,7 @@ With the baseline performance results using SVC model, the classification report
 From the actual returns vs strategy returns plot, we can see the prediction (strategy) still gives a better return from 2019 onwards. However, we should still try adjusting the model parameter to see if we can get better results.
 
 Base model classification report: https://github.com/allyche/module_14_challenge/blob/main/base_report.jpg
+
 Base model actual vs strategy returns plot: https://github.com/allyche/module_14_challenge/blob/main/base_plot.jpg
 
 2. SVC Model - adjusting testing data period
@@ -48,6 +49,7 @@ From the updated actual returns vs strategy returns plot, we can see there was a
 Comparing the base model 3 month test data vs the adjusted 6 months data. The prediction didn't do a better job.
 
 Adjusted TestDataPeriod classication report: https://github.com/allyche/module_14_challenge/blob/main/AdjustingTestDataPeriod_Report.jpg
+
 Adjusted TestDataPeriod actual vs strategy returns plot: https://github.com/allyche/module_14_challenge/blob/main/AdjustingTestDataPeriod_plot.jpg
 
 3. SVC Model: Adjusting SMA
@@ -57,6 +59,7 @@ The base model used SMA 4 and 10 days. In the adjusted model we updated the SMA 
 Looking at the updated SMA actual vs strategy returns plot, the strategy returns consistently beat the actual returns across the years in the past. This is the best model + parameters so far.
 
 Adjusted SMA classication report: https://github.com/allyche/module_14_challenge/blob/main/AdjustingSMA_Report.jpg
+
 Adjusted SMA actual vs strategy returns plot: https://github.com/allyche/module_14_challenge/blob/main/AdjustingSMA_plot.jpg
 
 
@@ -67,6 +70,7 @@ Using the Linear Regression model, we got a accuracy  f1-score of 52%, which is 
 Similar to the base SVC model, we can see the prediction (strategy) return still gives a better performance from the middle of 2019 onwards.  
 
 Linear Regression classification report: https://github.com/allyche/module_14_challenge/blob/main/lr_report.jpg
+
 Linear Regression actual vs strategy returns plot: https://github.com/allyche/module_14_challenge/blob/main/lr_plot.jpg
 
 
